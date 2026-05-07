@@ -17,3 +17,6 @@ Thumbs.db
 
 # Local data
 .claude/data/
+
+# OMC tooling state
+.omc/
