@@ -1,0 +1,5 @@
+[tool.pytest.ini_options]
+testpaths = ["skills/kr-market-report/scripts/tests"]
+markers = [
+    "integration: marks tests requiring real KRX network call (deselect with '-m \"not integration\"')",
+]
