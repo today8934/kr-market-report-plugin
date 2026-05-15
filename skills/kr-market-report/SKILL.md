@@ -33,15 +33,17 @@ description: 직전 마감된 한국 정규장(코스피+코스닥) 1세션을 f
 
 ## 출력 위치
 
-기본 경로: `~/workspace/kr-market-report/YYYY-MM-DD.md` (오늘 한국 날짜 기준).
+기본 경로: `~/workspace/wooksang-marketplace-documents/kr-market-report/YYYY-MM-DD.md` (오늘 한국 날짜 기준).
+
+wooksang-marketplace 플러그인들이 생성한 모든 문서는 `~/workspace/wooksang-marketplace-documents/<plugin>/` 하위로 모입니다. 이 skill은 `kr-market-report` 디렉토리를 사용합니다.
 
 ### 경로 결정 절차
-1. `~/.claude/data/kr-market-report/config.json`이 있고 `output_dir` 필드가 존재하면 그 값 우선 사용 (예: `~/Documents/obsidian/kr-market-report`)
+1. `~/.claude/data/kr-market-report/config.json`이 있고 `output_dir` 필드가 존재하면 그 값 우선 사용 (사용자가 명시적으로 별도 위치를 원하는 경우만)
 2. 없으면 기본 경로 사용
-3. 디렉토리가 없으면 먼저 생성 (`mkdir -p`)
+3. 디렉토리가 없으면 먼저 생성 (`mkdir -p ~/workspace/wooksang-marketplace-documents/kr-market-report`)
 4. 같은 날짜 파일이 이미 존재하면 덮어쓰지 말고 `YYYY-MM-DD-HHMM.md` 형태로 시간 suffix
 
-### config.json 예시
+### config.json 예시 (선택적 오버라이드)
 ```json
 {
   "output_dir": "~/Documents/obsidian/kr-market-report"
@@ -152,8 +154,8 @@ YAML frontmatter → §1 TL;DR → §2 코스피·코스닥 → §3 수급 → �
 
 ```
 ✅ 한국 증시 회고 보고서 생성 완료 (세션: 2026-05-07)
-- 원본: ~/workspace/kr-market-report/2026-05-07.md
-- 쉬운버전: ~/workspace/kr-market-report/2026-05-07-쉬운버전.md
+- 원본: ~/workspace/wooksang-marketplace-documents/kr-market-report/2026-05-07.md
+- 쉬운버전: ~/workspace/wooksang-marketplace-documents/kr-market-report/2026-05-07-쉬운버전.md
 
 TL;DR:
 > {한줄평}

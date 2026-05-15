@@ -21,7 +21,7 @@
 - **두 버전 자동 생성** —
   1. **원본 리포트** (전문가용, 수급/공매도/프로그램 매매 같은 한국 시장 용어 그대로)
   2. **쉬운버전** (입문자용, 상단 📘 미니 용어집 + 본문 괄호 해설 + 표 아래 "쉬운 해석")
-- **저장 경로 configurable** — 기본 `~/workspace/kr-market-report/`. `~/.claude/data/kr-market-report/config.json`에 `output_dir` 필드로 사용자 지정 가능 (예: Obsidian vault 하위)
+- **저장 경로 configurable** — 기본 `~/workspace/wooksang-marketplace-documents/kr-market-report/`. `~/.claude/data/kr-market-report/config.json`에 `output_dir` 필드로 사용자 지정 가능 (예: Obsidian vault 하위)
 
 ---
 

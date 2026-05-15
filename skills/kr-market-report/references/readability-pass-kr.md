@@ -12,7 +12,7 @@ SKILL.md Step 8에서 원본 저장 완료 후 `Agent` tool로 호출 (`subagent
 다음 한국 증시 보고서 원본을 입문자용으로 리라이팅해 같은 디렉토리에 `-쉬운버전.md` suffix로 저장하세요.
 
 ## 입력
-- 원본 파일: {원본 절대경로} (예: /Users/musinsa/workspace/kr-market-report/2026-05-07.md)
+- 원본 파일: {원본 절대경로} (예: /Users/musinsa/workspace/wooksang-marketplace-documents/kr-market-report/2026-05-07.md)
 - 한국 시장 용어집: {glossary 절대경로} (references/glossary-kr.md)
 
 ## 출력 규칙
